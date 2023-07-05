@@ -57,12 +57,12 @@ export default function Home() {
               </div>
             </div>
             <div className='group max-w-sm w-full rounded-lg lg:max-w-full lg:flex shadow-lg  bg-slate-800 hover:bg-slate-600 hover:shadow-slate-600 hover:text-teal-500'>
-              <Image className='rounded-lg w-1/2' src='/Pokemon.png' alt="Something" width={500} height={280}/>
+              <Image className='rounded-lg w-1/2' src='/Overcooked-AI.png' alt="Something" width={500} height={280}/>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">Pokemon TCG visualization</div>
+                <div className="font-bold text-xl mb-2">Overcooked-AI a fully cooperative task</div>
                 <p className=" text-gray-100 text-base">
-                  A data visualization project to visualize the Pokemon TCG cards stats using D3.js. The project contains three
-                  idioms that are connected with each other to perform complex searches.
+                  A multi-agent reinforcement learning (MARL) project to train agents to play the game Overcooked. The agents are trained using
+                  Q-Learning and SARSA.
                 </p>
                 <div className="pt-8">
                   <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">HTML</span>
