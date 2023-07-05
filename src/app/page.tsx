@@ -19,16 +19,16 @@ export default function Home() {
         <div className='text-center just'>
           <h2 className='text-5xl text-teal-500 font-medium'>Eduardo Miranda</h2>
           <h3 className='text-2xl py-2'>Software Developer</h3>
-          <p className='text-md py-5 leading-8 text-gray-300'>Hi, I am a computer science student from Portugal, 
-            currently studying at <span className='font-extrabold text-gray-200 hover:text-teal-500'>Instituto Superior Técnico</span>. I have already 
+          <p className='text-md py-5 leading-7 text-gray-300'>Hi, I am a computer science student from Portugal, 
+            currently studying at <span onClick={() => location.href = 'https://tecnico.ulisboa.pt/en/'} className='font-extrabold text-gray-200 hover:text-teal-500'>Instituto Superior Técnico</span>. I have already 
             completed my bachelor's degree in computer science and am currently pursuing a master's degree with a specialization in Software Engineering and 
             Artificial Intelligence. I am eager to gain work experience and contribute to an exciting new project.
           </p>
         </div>
         <div className='text-5xl flex justify-center gap-16'>
-          <FaGithub className='hover:text-teal-500'/>
+          <FaGithub onClick={() => location.href = 'https://github.com/eduvedras'} className='hover:text-teal-500'/>
           <FiMail className='hover:text-teal-500'/>
-          <FaLinkedin className='hover:text-teal-500'/>
+          <FaLinkedin onClick={() => location.href = 'https://www.linkedin.com/in/em-miranda/'} className='hover:text-teal-500'/>
         </div>
        
       </section>
