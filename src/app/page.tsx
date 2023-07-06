@@ -56,7 +56,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='group max-w-sm w-full rounded-lg lg:max-w-full lg:flex shadow-lg  bg-slate-800 hover:bg-slate-600 hover:shadow-slate-600 hover:text-teal-500'>
+            <div onClick={() => router.replace('/Overcooked')} className='group max-w-sm w-full rounded-lg lg:max-w-full lg:flex shadow-lg  bg-slate-800 hover:bg-slate-600 hover:shadow-slate-600 hover:text-teal-500'>
               <Image className='rounded-lg w-1/2' src='/Overcooked-AI.png' alt="Something" width={500} height={280}/>
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Overcooked-AI a fully cooperative task</div>
@@ -65,10 +65,8 @@ export default function Home() {
                   Q-Learning and SARSA.
                 </p>
                 <div className="pt-8">
-                  <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">HTML</span>
-                  <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">CSS</span>
-                  <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">JavaScript</span>
-                  <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">D3.js</span>
+                  <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">Python</span>
+                  <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">Jupyter Notebook</span>
                 </div>
               </div>
             </div>

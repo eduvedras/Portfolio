@@ -32,7 +32,7 @@ export default function Pokemon() {
                     type, resistances, weaknesses.
                 </p>
                 <p className='text-md leading-7 text-gray-200'>
-                    The data used in this project is from the <span className='font-extrabold text-gray-200 hover:text-teal-500'>Pokémon
+                    The data used in this project is from the <span onClick={() => location.href = 'https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/'} className='font-extrabold text-gray-200 hover:text-teal-500'>Pokémon
                     TCG</span> official site that has a database with all the cards since
                     1999.
                 </p>
