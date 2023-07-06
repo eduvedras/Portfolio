@@ -41,7 +41,8 @@ export default function Overcooked() {
                 <h3 className="text-2xl font-medium">Learn more</h3>
                 <p className='text-md leading-7 pt-2 pb-5 text-gray-200'>
                     If you want to learn more about the project, click <span onClick={() => location.href = '/AASMA-report.pdf'} className='font-extrabold text-gray-200 hover:text-teal-500'>here</span> to read the report
-                    and get a more detailed explanation about the results.
+                    and get a more detailed explanation about the results. You can
+                    also click <span onClick={() => location.href = 'https://github.com/eduvedras/AASMA-Proj/'} className='font-extrabold text-gray-200 hover:text-teal-500'>here</span> to see the source code of the project.
                 </p>
             </div>
         </main>

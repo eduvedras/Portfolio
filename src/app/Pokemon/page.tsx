@@ -55,7 +55,8 @@ export default function Pokemon() {
                 <h3 className="text-2xl font-medium">Learn more</h3>
                 <p className='text-md leading-7 pt-2 pb-5 text-gray-200'>
                     If you want to learn more about the project, click <span onClick={() => location.href = '/VI-25_Report.pdf'} className='font-extrabold text-gray-200 hover:text-teal-500'>here</span> to read the report
-                    of the project and <span onClick={() => location.href = 'https://eduvedras.github.io/Pokemon-Vis/'} className='font-extrabold text-gray-200 hover:text-teal-500'>here</span> to try it for yourself. 
+                    of the project and <span onClick={() => location.href = 'https://eduvedras.github.io/Pokemon-Vis/'} className='font-extrabold text-gray-200 hover:text-teal-500'>here</span> to try it for yourself. You can
+                    also click <span onClick={() => location.href = 'https://github.com/eduvedras/Pokemon-Vis'} className='font-extrabold text-gray-200 hover:text-teal-500'>here</span> to see the source code of the project.
                 </p>
             </div>
         </main>
