@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 export default function Home() {
   const router = useRouter();
   return (
-    <main className='h-screen px-10 md:px-20 lg:px-20 bg-slate-900 grid grid-cols-3 gap-16 overflow-hidden'>
+    <main className='h-screen px-10 md:px-20 lg:px-20 bg-slate-900 lg:grid lg:grid-cols-3 lg:gap-16 lg:overflow-hidden'>
       <section className="h-screen col-span-1">
         <div className='p-10'>
           <div className='relative rounded-full w-52 h-52 mx-auto'>
@@ -30,7 +30,7 @@ export default function Home() {
        
       </section>
       
-      <section className='col-span-2'>
+      <section className='lg:col-span-2'>
         <div className='pt-10 pb-5'>
           <h3 className='text-3xl font-medium'>Projects</h3>
         </div>
