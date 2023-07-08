@@ -34,7 +34,7 @@ export default function Planet() {
                 <h3 className="text-2xl font-medium">Overall description</h3>
                 <p className='text-md leading-7 pt-2 pb-5 text-gray-200'>
                     The project consists of a spaceship that flies at a distance of 1.20*R of the center of the planet
-                    with the objective of collecting debris, R being the planet's radius. There are 20 debris distributed randomly in the exosphere
+                    with the objective of collecting debris, R being the planet&apos;s radius. There are 20 debris distributed randomly in the exosphere
                     with varying sizes, colors and shapes. The spaceship is controlled by the user using the arrows keys,
                     the user can also change the camera view by pressing the keys 1, 2 and 3, where 1 is the frontal view,
                     2 is the perspective view and 3 is a perspective view that follows the spaceship. The collisions

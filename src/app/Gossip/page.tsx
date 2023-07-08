@@ -13,7 +13,7 @@ export default function Gossip() {
             <div className='pt-5 pb-5'>
                 <h3 className="text-2xl font-medium">1. Introduction</h3>
                 <p className='text-md leading-7 pt-2 text-gray-200'>
-                The objective of the Distributed Systems (DS) project was to develop the "Classes" system, 
+                The objective of the Distributed Systems (DS) project was to develop the &quot;Classes&quot; system, 
                 a service for enrolling in classes of a given curricular unit. The service is provided by 
                 servers through calls to remote procedures. It is assumed that there 
                 is only one class. The service can be accessed by three types of customers:
@@ -79,7 +79,7 @@ export default function Gossip() {
                                     cancelEnrollment
                                 </p>
                             </div>
-                            <p className="text-md pt-1 text-gray-200">&nbsp; -- receives a student identifier, unsubscribing the student and placing him on the class's canceled list</p>
+                            <p className="text-md pt-1 text-gray-200">&nbsp; -- receives a student identifier, unsubscribing the student and placing him on the class&apos;s canceled list</p>
                         </li>
                     </ul>
                 </div>
@@ -121,7 +121,7 @@ export default function Gossip() {
                                     deactivate
                                 </p>
                             </div>
-                            <p className="text-md pt-1 text-gray-200">&nbsp; -- put the server in IDLE mode. In this mode, the server responds with the error "DISABLED" to all requests from teachers and students</p>
+                            <p className="text-md pt-1 text-gray-200">&nbsp; -- put the server in IDLE mode. In this mode, the server responds with the error &quot;DISABLED&quot; to all requests from teachers and students</p>
                         </li>
                         <li className="pb-2 flex">
                             <div className="rounded-lg border-1 bg-slate-800 border-slate-500 w-fit ">
@@ -176,7 +176,7 @@ export default function Gossip() {
                 <p className='text-md leading-7 pt-2 pb-2 text-gray-200'>
                     The service is provided by two or more servers that share state using an eventual control model, 
                     capable of integrating concurrent operations. Subscription operations can be done on either server, 
-                    which propagate in deferred ("background") as changes to the other server. 
+                    which propagate in deferred (&quot;background&quot;) as changes to the other server. 
                     Whenever possible, concurrently executed operations are integrated into a common state. In this model,
                     some operations may be canceled later automatically by the system. For example, if two students 
                     reserve the last spot in a class, concurrently, using different servers. 

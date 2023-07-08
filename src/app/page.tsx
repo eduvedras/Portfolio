@@ -18,7 +18,7 @@ export default function Home() {
           <h3 className='text-2xl py-2'>Software Developer</h3>
           <p className='text-md p-5 leading-7 text-gray-300'>Hi, I am a computer science student from Portugal, 
             currently studying at <span onClick={() => location.href = 'https://tecnico.ulisboa.pt/en/'} className='font-extrabold text-gray-200 hover:text-teal-500'>Instituto Superior Técnico</span>. I have already 
-            completed my bachelor's degree in computer science and am currently pursuing a master's degree with a specialization in Software Engineering and 
+            completed my bachelor&apos;s degree in computer science and am currently pursuing a master&apos;s degree with a specialization in Software Engineering and 
             Artificial Intelligence. I am eager to gain work experience and contribute to an exciting new project.
           </p>
         </div>
