@@ -25,7 +25,7 @@ export default function Home() {
         <div className='text-5xl flex justify-center gap-16'>
           <FaGithub onClick={() => location.href = 'https://github.com/eduvedras'} className='hover:text-teal-500'/>
           <FaLinkedin onClick={() => location.href = 'https://www.linkedin.com/in/em-miranda/'} className='hover:text-teal-500'/>
-          <FaFile onClick={() => location.href = '/Eduardo_Miranda.pdf'} className='hover:text-teal-500'/>
+          <FaFile onClick={() => location.href = '/Eduardo_Miranda_1.pdf'} className='hover:text-teal-500'/>
         </div>
        
       </section>
