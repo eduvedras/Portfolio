@@ -27,6 +27,9 @@ export default function Car_Database() {
                     that is stored in the database. The website also contains an add menu that allows the user to add cars to the
                     database and a remove menu to remove them.
                 </p>
+                <video className='relative rounded-lg mx-auto' width="1000" height="800" controls>
+                    <source src="/Car_Database.mp4" type="video/mp4"></source>
+                </video>
             </div>
             <div className='pt-5 pb-5'>
                 <h3 className="text-2xl font-medium">Learn more</h3>
