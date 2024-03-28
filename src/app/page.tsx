@@ -25,7 +25,7 @@ export default function Home() {
         <div className='text-5xl flex justify-center gap-16'>
           <FaGithub onClick={() => location.href = 'https://github.com/eduvedras'} className='hover:text-teal-500'/>
           <FaLinkedin onClick={() => location.href = 'https://www.linkedin.com/in/em-miranda/'} className='hover:text-teal-500'/>
-          <FaFile onClick={() => location.href = '/Eduardo_Miranda_1.pdf'} className='hover:text-teal-500'/>
+          <FaFile onClick={() => location.href = '/Eduardo_Miranda.pdf'} className='hover:text-teal-500'/>
         </div>
        
       </section>
@@ -87,13 +87,26 @@ export default function Home() {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Space Debris</div>
                 <p className=" text-gray-100 text-base">
-                  A three.js project that about a spaceship that has to collect debris in the exosphere of a planet. The project implements collisions, a movable camera and 
+                  A three.js project about a spaceship that has to collect debris in the exosphere of a planet. The project implements collisions, a movable camera and 
                   constant angular velocity.
                 </p>
                 <div className="pt-8">
                   <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">HTML</span>
                   <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">JavaScript</span>
                   <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">Three.js</span>
+                </div>
+              </div>
+              <div onClick={() => router.replace('/Car_Database')} className='group max-w-sm w-full rounded-lg lg:max-w-full lg:flex shadow-lg  bg-slate-800 hover:bg-slate-600 hover:shadow-slate-600 hover:text-teal-500'>
+              <Image className='rounded-lg w-1/2' src='/Car_Database.png' alt="Something" width={500} height={280}/>
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">Car Database</div>
+                <p className=" text-gray-100 text-base">
+                  A flask project with a database that allows to add, remove and search cars.
+                </p>
+                <div className="pt-8">
+                  <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">Python</span>
+                  <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">Flask</span>
+                  <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">SQL</span>
                 </div>
               </div>
             </div>
