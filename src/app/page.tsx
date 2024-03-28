@@ -34,7 +34,7 @@ export default function Home() {
         <div className='pt-10 pb-5'>
           <h3 className='text-3xl font-medium'>Projects</h3>
         </div>
-        <div className='h-4/5 flex'>
+        <div className='h-2/5 flex'>
         <div className='flex-1 flex overflow-hidden'>
           <div className='grid gap-5 overflow-y-auto no-scrollbar flex-1 rounded-lg'>
             <div onClick={() => router.replace('/Pokemon')} className='group max-w-sm w-full rounded-lg lg:max-w-full lg:flex shadow-lg  bg-slate-800 hover:bg-slate-600 hover:shadow-slate-600 hover:text-teal-500'>
