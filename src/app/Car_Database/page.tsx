@@ -15,7 +15,7 @@ export default function Car_Database() {
                 <p className='text-md leading-7 pt-2 text-gray-200'>
                     This database is a project that I developed for three reasons the first one was to refresh my
                     knowledge about databases, the second one was to learn more about the flask framework. Lastly, 
-                    it was a response to my father's request for a tool equipped with filtering and search capabilities 
+                    it was a response to my father that needed a tool equipped with filtering and search capabilities 
                     to effectively monitor certain cars.     
                 </p>
             </div>
