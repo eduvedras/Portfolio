@@ -95,8 +95,9 @@ export default function Home() {
                   <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">JavaScript</span>
                   <span className="inline-block bg-gray-200 group-hover:bg-teal-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 group-hover:text-teal-400 mr-2 mb-2">Three.js</span>
                 </div>
-              </div>
-              <div onClick={() => router.replace('/Car_Database')} className='group max-w-sm w-full rounded-lg lg:max-w-full lg:flex shadow-lg  bg-slate-800 hover:bg-slate-600 hover:shadow-slate-600 hover:text-teal-500'>
+              </div> 
+            </div>
+            <div onClick={() => router.replace('/Car_Database')} className='group max-w-sm w-full rounded-lg lg:max-w-full lg:flex shadow-lg  bg-slate-800 hover:bg-slate-600 hover:shadow-slate-600 hover:text-teal-500'>
               <Image className='rounded-lg w-1/2' src='/Car_Database.png' alt="Something" width={500} height={280}/>
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Car Database</div>
