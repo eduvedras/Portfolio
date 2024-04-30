@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 interface EducationCardProps {
 	card: string;
@@ -41,13 +42,15 @@ const EducationCard: React.FC<EducationCardProps> = ({ card }) => {
 	return (
 		<div className="flex flex-col border-teal-500  shadow-md shadow-teal-800 border rounded-xl px-10 py-5 gap-4 transition ease-in-out delay-150 duration-300 hover:-translate-y-1">
 			<div className="flex flex-row gap-4">
-				<img
+				<Image
 					src={
 						"/" +
 						school +
 						(school.includes("Instituto") ? ".png" : ".svg")
 					}
 					className="rounded-2xl w-[180px] h-[85px]"
+					width={180}
+					height={85}
 					alt=""
 				/>
 				<div className="flex flex-col">

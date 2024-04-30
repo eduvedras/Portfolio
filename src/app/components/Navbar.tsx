@@ -1,55 +1,52 @@
 "use client";
-import { HashLink } from "react-router-hash-link";
+import Link from "next/link";
 
 export default function Navbar() {
 	return (
 		<nav className="w-screen flex flex-row fixed z-40 bg-gradient-to-b from-black to-teal-900">
-			<HashLink
-				className=" ml-20 my-4 text-3xl text-gray-100"
-				to="#about"
-			>
+			<Link className=" ml-20 my-4 text-3xl text-gray-100" href="#about">
 				Eduardo Miranda
-			</HashLink>
+			</Link>
 			<ul className="absolute right-0 text-lg mr-32 my-5 flex flex-row gap-8 text-gray-400">
 				<li>
-					<HashLink
+					<Link
 						className="hover:text-gray-50 duration-300"
-						to="#about"
+						href="#about"
 					>
 						About
-					</HashLink>
+					</Link>
 				</li>
 				<li>
-					<HashLink
+					<Link
 						className="hover:text-gray-50 duration-300"
-						to="#skills"
+						href="#skills"
 					>
 						Skills
-					</HashLink>
+					</Link>
 				</li>
 				<li>
-					<HashLink
+					<Link
 						className="hover:text-gray-50 duration-300"
-						to="#education"
+						href="#education"
 					>
 						Education
-					</HashLink>
+					</Link>
 				</li>
 				<li>
-					<HashLink
+					<Link
 						className="hover:text-gray-50 duration-300"
-						to="#projects"
+						href="#projects"
 					>
 						Projects
-					</HashLink>
+					</Link>
 				</li>
 				<li>
-					<HashLink
+					<Link
 						className="hover:text-gray-50 duration-300"
-						to="#contact"
+						href="#contact"
 					>
 						Contact me
-					</HashLink>
+					</Link>
 				</li>
 			</ul>
 		</nav>

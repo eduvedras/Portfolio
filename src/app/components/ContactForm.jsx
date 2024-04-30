@@ -1,6 +1,11 @@
 "use client";
-import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
+
+import dynamic from "next/dynamic";
+
+const emailjs = dynamic(() => import("@emailjs/browser"), {
+	ssr: false,
+});
 
 export default function ContactForm() {
 	const form = useRef();

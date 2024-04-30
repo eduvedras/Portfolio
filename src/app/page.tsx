@@ -1,5 +1,4 @@
 "use client";
-import { BrowserRouter } from "react-router-dom";
 
 import dynamic from "next/dynamic";
 
@@ -31,17 +30,15 @@ import React from "react";
 export default function Home() {
 	return (
 		<div className="no-scrollbar">
-			<BrowserRouter>
-				<Navbar />
-				<div className="bg-black flex flex-col gap-32">
-					<About />
-					<Skills />
-					<Education />
-					<Projects />
-					<Contact />
-					<Footer />
-				</div>
-			</BrowserRouter>
+			<Navbar />
+			<div className="bg-black flex flex-col gap-32">
+				<About />
+				<Skills />
+				<Education />
+				<Projects />
+				<Contact />
+				<Footer />
+			</div>
 		</div>
 	);
 }
