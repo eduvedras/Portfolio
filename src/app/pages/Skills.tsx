@@ -1,5 +1,10 @@
 "use client";
-import SkillCard from "../components/SkillCard";
+
+import dynamic from "next/dynamic";
+
+const SkillCard = dynamic(() => import("../components/SkillCard"), {
+	ssr: false,
+});
 
 function Skills() {
 	return (

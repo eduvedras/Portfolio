@@ -1,14 +1,30 @@
 "use client";
 import { BrowserRouter } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
+import dynamic from "next/dynamic";
 
-import About from "./pages/About";
-import Skills from "./pages/Skills";
-import Education from "./pages/Education";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import Footer from "./pages/Footer";
+const About = dynamic(() => import("./pages/About"), {
+	ssr: false,
+});
+const Skills = dynamic(() => import("./pages/Skills"), {
+	ssr: false,
+});
+const Education = dynamic(() => import("./pages/Education"), {
+	ssr: false,
+});
+const Projects = dynamic(() => import("./pages/Projects"), {
+	ssr: false,
+});
+const Contact = dynamic(() => import("./pages/Contact"), {
+	ssr: false,
+});
+const Footer = dynamic(() => import("./pages/Footer"), {
+	ssr: false,
+});
+
+const Navbar = dynamic(() => import("./components/Navbar"), {
+	ssr: false,
+});
 
 import React from "react";
 

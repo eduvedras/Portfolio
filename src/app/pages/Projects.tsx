@@ -1,5 +1,10 @@
 "use client";
-import ProjectCard from "../components/ProjectCard";
+
+import dynamic from "next/dynamic";
+
+const ProjectCard = dynamic(() => import("../components/ProjectCard"), {
+	ssr: false,
+});
 
 function Projects() {
 	return (

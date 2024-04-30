@@ -1,6 +1,10 @@
 "use client";
 
-import EducationCard from "../components/EducationCard";
+import dynamic from "next/dynamic";
+
+const EducationCard = dynamic(() => import("../components/EducationCard"), {
+	ssr: false,
+});
 
 function Education() {
 	return (
